@@ -1,0 +1,27 @@
+{
+  "name": "jsx-event-emit",
+  "version": "1.0.0",
+  "description": "Dealing with @vue/babel-preset-jsx cannot resolve props that start with 'on' has undefined values",
+  "main": "index.js",
+  "files": [
+    "dist/index.js",
+    "dist/index.d.ts"
+  ],
+  "scripts": {
+    "dev": "tsc -p . -w --incremental",
+    "prepublishOnly": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nooooooom/jsx-event-emit.git"
+  },
+  "author": "nooooooom",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nooooooom/jsx-event-emit/issues"
+  },
+  "homepage": "https://github.com/nooooooom/jsx-event-emit#readme",
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}
